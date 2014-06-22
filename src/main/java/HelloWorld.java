@@ -17,7 +17,7 @@ public class HelloWorld extends HttpServlet {
             throws ServletException, IOException {
     	resp.setContentType("text/html; charset=utf8");
         PrintWriter out = resp.getWriter();
-        out.println("Running Servlet");
+        out.println("Running Servletあいうえお");
         out.close();
     }
 
