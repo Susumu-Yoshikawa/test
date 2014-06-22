@@ -1,6 +1,4 @@
-<html>
-<body>
-<h2>Hello World!</h2>
-<img src="img/sample.png" />
-</body>
-</html>
+<%@ page contentType="text/html;charset=UTF-8" %>
+<HTML><BODY>
+<% out.println("Running JSP"); %>
+</BODY></HTML>
